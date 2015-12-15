@@ -1,0 +1,82 @@
+body {
+	font-family:sans-serif;
+	background-image: url("../images/background.jpg");
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+thead td {
+	padding: 0px;
+}
+
+.nav td {
+	background: #007ecc;
+	padding: 8px;
+}
+
+.hover:hover {
+	background: white;
+	font-weight: bold;
+}
+
+
+.sidebar {
+	background: #33b1ff;
+	padding: 10px;
+}
+
+.content {
+	background-color: white;
+	padding: 10px;
+	padding-top: 20px;
+	text-align: justify;
+	vertical-align: top;
+	position: relative;
+}
+
+#current_page {
+	background: white;
+}
+
+.links {
+	color: #007ac7;
+}
+
+.footnote {
+	font-size: 13px;
+	font-style: italic;
+	position: absolute;
+	bottom: 0;
+}
+
+.unilink:hover {
+	background: #33b1ff;
+}
+
+.unilink:hover a {
+	color: white;
+}
+
+#about {
+	text-align: center;
+	padding-top: 100px;
+}
+
+label {
+	display: block;
+	padding-bottom: 8px;
+}
+
+
+textarea {
+	width: 500px;
+	height: 400px;
+}
+
+form li {
+	list-style: none;
+	margin-bottom: 20px;
+}
